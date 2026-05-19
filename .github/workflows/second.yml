@@ -1,0 +1,13 @@
+name: Multi Step Workflow
+on:
+  push:
+jobs:
+  demo-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Date
+        run: date
+      - name: Print Current User
+        run: whoami
+      - name: List Files
+        run: ls -la
