@@ -1,4 +1,4 @@
 Hello Git on EC2
 
-
+This is a new line
 Hello!! This is Hameed
